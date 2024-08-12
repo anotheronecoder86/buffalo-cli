@@ -7,8 +7,8 @@ import (
 	"os/exec"
 	"time"
 
-	_ "<%= opts.PackagePkg %>/a"
-	_ "<%= opts.ActionsPkg %>"
+	_ "blackhole/<%= opts.PackagePkg %>/a"
+	_ "blackhole/<%= opts.ActionsPkg %>"
 	<%= if (opts.WithGrifts) { %>
 	_ "<%= opts.GriftsPkg %>"
 	<% } %>
