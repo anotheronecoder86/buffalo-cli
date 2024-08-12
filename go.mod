@@ -2,12 +2,15 @@ module github.com/anotheronecoder86/buffalo-cli
 
 go 1.18
 
+replace github.com/gobuffalo/cli v0.18.14 => /Users/artemmikhailik/go/src/buffalo-cli
+
 require (
 	github.com/BurntSushi/toml v1.2.1
 	github.com/fatih/color v1.14.1
 	github.com/gobuffalo/attrs v1.0.3
 	github.com/gobuffalo/buffalo-pop/v3 v3.0.7
 	github.com/gobuffalo/clara/v2 v2.0.9
+	github.com/gobuffalo/cli v0.18.14
 	github.com/gobuffalo/envy v1.10.2
 	github.com/gobuffalo/events v1.4.3
 	github.com/gobuffalo/flect v1.0.0
