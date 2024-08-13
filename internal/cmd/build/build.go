@@ -2,14 +2,14 @@ package build
 
 import (
 	"context"
+	"github.com/gobuffalo/genny/v2"
 	"log"
 	"os"
 	"os/signal"
 	"runtime/debug"
 	"time"
 
-	"github.com/gobuffalo/cli/internal/genny/build"
-	"github.com/gobuffalo/genny/v2"
+	"buffalo-cli/internal/genny/build"
 	"github.com/gobuffalo/logger"
 	"github.com/gobuffalo/meta"
 	"github.com/spf13/cobra"

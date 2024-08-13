@@ -1,0 +1,7 @@
+<%= warning() { %>
+You do not appear to be using Go Modules.
+<% } %>
+
+* Go Modules (Recommended) - https://gobuffalo.io/en/docs/gomods
+
+<%= partial("go/_help.plush") %>

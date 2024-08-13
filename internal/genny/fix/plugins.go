@@ -7,12 +7,12 @@ import (
 	"path"
 	"strings"
 
-	"github.com/gobuffalo/cli/internal/genny/plugins/install"
-
-	cmdPlugins "github.com/gobuffalo/cli/internal/cmd/plugins"
-	"github.com/gobuffalo/cli/internal/plugins"
-	"github.com/gobuffalo/cli/internal/plugins/plugdeps"
+	"buffalo-cli/internal/genny/plugins/install"
 	"github.com/gobuffalo/genny/v2"
+
+	cmdPlugins "buffalo-cli/internal/cmd/plugins"
+	"buffalo-cli/internal/plugins"
+	"buffalo-cli/internal/plugins/plugdeps"
 )
 
 var oldPlugins = []string{

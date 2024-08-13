@@ -3,7 +3,7 @@ package plugins
 import (
 	"bytes"
 
-	"github.com/gobuffalo/cli/internal/plugins/plugdeps"
+	"buffalo-cli/internal/plugins/plugdeps"
 	"github.com/gobuffalo/genny/v2"
 	"github.com/gobuffalo/meta"
 )

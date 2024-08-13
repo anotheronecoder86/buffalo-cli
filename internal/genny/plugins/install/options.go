@@ -4,7 +4,7 @@ import (
 	"errors"
 	"os"
 
-	"github.com/gobuffalo/cli/internal/plugins/plugdeps"
+	"buffalo-cli/internal/plugins/plugdeps"
 	"github.com/gobuffalo/meta"
 )
 

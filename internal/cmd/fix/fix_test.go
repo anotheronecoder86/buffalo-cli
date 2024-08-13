@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/gobuffalo/cli/internal/testhelpers"
+	"buffalo-cli/internal/testhelpers"
 	"github.com/stretchr/testify/require"
 )
 

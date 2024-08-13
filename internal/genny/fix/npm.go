@@ -7,7 +7,7 @@ import (
 	"html/template"
 	"os/exec"
 
-	"github.com/gobuffalo/cli/internal/genny/assets/webpack"
+	"buffalo-cli/internal/genny/assets/webpack"
 	"github.com/gobuffalo/genny/v2"
 	"github.com/gobuffalo/meta"
 )

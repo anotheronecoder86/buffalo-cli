@@ -1,0 +1,8 @@
+<%= error() { %>
+Your PATH (<%= PATH %>) does not contain <%= GOPATH %>/bin.
+<% } %>
+
+Without <%= GOPATH %>/bin in your `PATH` any Go executables can not be run globally.
+
+<%= partial("go/_help.plush") %>
+

@@ -17,7 +17,7 @@ var buffaloVersions = []struct {
 	apiUrl     string
 }{
 	{
-		"github.com/gobuffalo/cli/cmd/buffalo",
+		"buffalo-cli/cmd/buffalo",
 		"https://api.github.com/repos/gobuffalo/cli/releases/tags/%s",
 	},
 	{
@@ -89,7 +89,7 @@ func EnsureBuffaloCMD(t *testing.T) error {
 		"sqlite",
 		"-o",
 		testingBinaryLocation(t),
-		"github.com/gobuffalo/cli/cmd/buffalo",
+		"buffalo-cli/cmd/buffalo",
 	)
 
 	ex.Stdout = os.Stdout
@@ -123,7 +123,7 @@ func testingBinaryLocation(t *testing.T) string {
 }
 
 // inCLISource ensures that the current directory is the CLI source folder by
-// checking its parent go.mod file says its github.com/gobuffalo/cli module.
+// checking its parent go.mod file says its buffalo-cli module.
 func inCLISource() (bool, error) {
 	wd, err := os.Getwd()
 	if err != nil {
@@ -151,6 +151,6 @@ func inCLISource() (bool, error) {
 		break
 	}
 
-	result := mod == "github.com/gobuffalo/cli"
+	result := mod == "buffalo-cli"
 	return result, nil
 }

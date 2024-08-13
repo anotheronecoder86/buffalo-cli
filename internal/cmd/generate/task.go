@@ -2,10 +2,10 @@ package generate
 
 import (
 	"context"
+	"github.com/gobuffalo/genny/v2"
 	"os"
 
-	"github.com/gobuffalo/cli/internal/genny/grift"
-	"github.com/gobuffalo/genny/v2"
+	"buffalo-cli/internal/genny/grift"
 	"github.com/gobuffalo/genny/v2/gogen"
 	"github.com/spf13/cobra"
 )

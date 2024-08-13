@@ -5,7 +5,7 @@ import (
 	"html/template"
 	"io/fs"
 
-	"github.com/gobuffalo/cli/internal/genny/newapp/core"
+	"buffalo-cli/internal/genny/newapp/core"
 	"github.com/gobuffalo/genny/v2"
 	"github.com/gobuffalo/genny/v2/gogen"
 )

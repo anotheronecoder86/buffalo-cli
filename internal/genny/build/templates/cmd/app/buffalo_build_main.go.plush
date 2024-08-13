@@ -93,7 +93,7 @@ func main() {
 }
 
 func printVersion() {
-	fmt.Printf("<%= opts.Name.Title() %> version %s\n", runtime.Build())
+	fmt.Printf("version %s\n", runtime.Build())
 }
 
 <%= if (opts.WithPop) { %>

@@ -7,7 +7,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/gobuffalo/cli/internal/runtime"
+	"buffalo-cli/internal/runtime"
 	"github.com/gobuffalo/events"
 	"github.com/gobuffalo/genny/v2"
 )

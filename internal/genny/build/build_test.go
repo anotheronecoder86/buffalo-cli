@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gobuffalo/cli/internal/genny/newapp/web"
-	"github.com/gobuffalo/cli/internal/genny/testrunner"
+	"buffalo-cli/internal/genny/newapp/web"
+	"buffalo-cli/internal/genny/testrunner"
 	"github.com/gobuffalo/envy"
 	"github.com/gobuffalo/meta"
 	"github.com/stretchr/testify/require"

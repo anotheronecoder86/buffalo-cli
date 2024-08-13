@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"runtime"
 
+	"buffalo-cli/internal/genny/assets/webpack"
 	"github.com/fatih/color"
-	"github.com/gobuffalo/cli/internal/genny/assets/webpack"
 	"github.com/gobuffalo/meta"
 	"github.com/gobuffalo/refresh/refresh"
 	"github.com/sirupsen/logrus"

@@ -2,10 +2,10 @@ package generate
 
 import (
 	"context"
-
-	"github.com/gobuffalo/cli/internal/genny/mail"
-	"github.com/gobuffalo/flect/name"
 	"github.com/gobuffalo/genny/v2"
+
+	"buffalo-cli/internal/genny/mail"
+	"github.com/gobuffalo/flect/name"
 	"github.com/gobuffalo/genny/v2/gogen"
 	"github.com/gobuffalo/meta"
 	"github.com/spf13/cobra"

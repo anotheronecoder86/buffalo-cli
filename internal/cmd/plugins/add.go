@@ -3,10 +3,10 @@ package plugins
 import (
 	"context"
 	"errors"
-
-	"github.com/gobuffalo/cli/internal/genny/add"
-	"github.com/gobuffalo/cli/internal/plugins/plugdeps"
 	"github.com/gobuffalo/genny/v2"
+
+	"buffalo-cli/internal/genny/add"
+	"buffalo-cli/internal/plugins/plugdeps"
 	"github.com/gobuffalo/meta"
 	"github.com/spf13/cobra"
 )

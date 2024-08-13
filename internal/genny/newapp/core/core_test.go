@@ -3,7 +3,7 @@ package core
 import (
 	"testing"
 
-	"github.com/gobuffalo/cli/internal/genny/docker"
+	"buffalo-cli/internal/genny/docker"
 	"github.com/gobuffalo/envy"
 	"github.com/gobuffalo/genny/v2/gentest"
 	"github.com/gobuffalo/meta"

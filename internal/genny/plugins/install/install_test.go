@@ -8,8 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gobuffalo/cli/internal/plugins/plugdeps"
-	"github.com/gobuffalo/genny/v2"
+	"buffalo-cli/internal/plugins/plugdeps"
 	"github.com/gobuffalo/genny/v2/gentest"
 	"github.com/gobuffalo/meta"
 	"github.com/stretchr/testify/require"

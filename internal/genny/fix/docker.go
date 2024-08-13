@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"html/template"
 
-	"github.com/gobuffalo/cli/internal/genny/docker"
+	"buffalo-cli/internal/genny/docker"
 	"github.com/gobuffalo/genny/v2"
 )
 

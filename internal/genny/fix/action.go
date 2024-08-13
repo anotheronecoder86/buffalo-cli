@@ -10,7 +10,7 @@ import (
 
 // ReplaceAppOnce fixes `actions/app.go` to fix the double execution issue.
 // it covers https://github.com/gobuffalo/buffalo/issues/1653 and
-// https://github.com/gobuffalo/cli/issues/228
+// https://buffalo-cli/issues/228
 func ReplaceAppOnce(opts *Options) genny.RunFn {
 	return func(r *genny.Runner) error {
 		fmt.Println("~~~ Apply AppOnce ~~~")

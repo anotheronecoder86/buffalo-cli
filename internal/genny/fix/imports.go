@@ -16,7 +16,7 @@ import (
 )
 
 var replace = map[string]string{
-	"github.com/gobuffalo/buffalo-plugins":          "github.com/gobuffalo/cli/internal/plugins",
+	"github.com/gobuffalo/buffalo-plugins":          "buffalo-cli/internal/plugins",
 	"github.com/gobuffalo/buffalo-pop/":             "github.com/gobuffalo/buffalo-pop/v3",
 	"github.com/gobuffalo/buffalo-pop/v2/":          "github.com/gobuffalo/buffalo-pop/v3",
 	"github.com/gobuffalo/buffalo-pop/pop/popmw":    "github.com/gobuffalo/buffalo-pop/v3/pop/popmw",

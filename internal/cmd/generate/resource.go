@@ -3,10 +3,10 @@ package generate
 import (
 	"context"
 	"fmt"
-
-	"github.com/gobuffalo/attrs"
-	"github.com/gobuffalo/cli/internal/genny/resource"
 	"github.com/gobuffalo/genny/v2"
+
+	"buffalo-cli/internal/genny/resource"
+	"github.com/gobuffalo/attrs"
 	"github.com/gobuffalo/logger"
 	"github.com/spf13/cobra"
 )

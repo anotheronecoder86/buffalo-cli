@@ -1,8 +1,8 @@
 package testrunner
 
 import (
-	"github.com/gobuffalo/cli/internal/genny/newapp/api"
-	"github.com/gobuffalo/cli/internal/genny/newapp/web"
+	"buffalo-cli/internal/genny/newapp/api"
+	"buffalo-cli/internal/genny/newapp/web"
 	"github.com/gobuffalo/genny/v2"
 	"github.com/gobuffalo/genny/v2/gentest"
 )

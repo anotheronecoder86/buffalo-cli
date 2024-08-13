@@ -3,13 +3,13 @@ package core
 import (
 	"errors"
 
-	"github.com/gobuffalo/cli/internal/genny/ci"
-	"github.com/gobuffalo/cli/internal/genny/docker"
-	"github.com/gobuffalo/cli/internal/genny/plugins/install"
-	"github.com/gobuffalo/cli/internal/genny/refresh"
+	"buffalo-cli/internal/genny/ci"
+	"buffalo-cli/internal/genny/docker"
+	"buffalo-cli/internal/genny/plugins/install"
+	"buffalo-cli/internal/genny/refresh"
 
+	"buffalo-cli/internal/plugins/plugdeps"
 	pop "github.com/gobuffalo/buffalo-pop/v3/genny/newapp"
-	"github.com/gobuffalo/cli/internal/plugins/plugdeps"
 	"github.com/gobuffalo/genny/v2"
 	"github.com/gobuffalo/meta"
 )

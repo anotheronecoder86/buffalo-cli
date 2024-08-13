@@ -3,7 +3,7 @@ package cmd
 import (
 	"sync"
 
-	"github.com/gobuffalo/cli/internal/plugins"
+	"buffalo-cli/internal/plugins"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )

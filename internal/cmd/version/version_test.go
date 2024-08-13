@@ -1,3 +1,4 @@
+//go:build integration
 // +build integration
 
 package version
@@ -5,7 +6,7 @@ package version
 import (
 	"testing"
 
-	"github.com/gobuffalo/cli/internal/testhelpers"
+	"buffalo-cli/internal/testhelpers"
 	"github.com/stretchr/testify/require"
 )
 
